@@ -359,7 +359,7 @@ func (d *Driver) SetClient(client Client) {
 
 // DriverName returns the name of the driver
 func (d *Driver) DriverName() string {
-	return "openstack"
+	return "ovhcloudpubliccloud"
 }
 
 // UnmarshalJSON loads driver config from JSON. This function is used by the RPCServerDriver that wraps
